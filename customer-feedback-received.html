@@ -5,20 +5,17 @@
 </head>
 
 <body style="margin:0;padding:0;" bgcolor="#efefef">
-  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0;margin-top:47px; padding:0;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;color:#484848;">
+  <table id="wrapper" width="600" align="center" cellpadding="0" cellspacing="0" border="0" style="margin:47px auto 0; padding:0;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;color:#484848;">
     <tbody>
       <tr>
-        <td><img src="assets/images/blank.gif" width="1" height="1" style="display:block"></td>
-        <td width="600">
-          <table cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;" class="email-container" width="600" bgcolor="#fff">
+        <td>
+          <table cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;" class="email-container" width="100%" bgcolor="#fff">
             <tbody>
               <tr>
-                <td width="30"><img src="assets/images/blank.gif" width="1" height="1" style="display:block"></td>
-                <td>
+                <td style="padding:0 30px;">
                   <table cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;" width="100%">
                     <tbody>
                       <tr>
-                        <td width="30"><img src="assets/images/blank.gif" width="1" height="1" style="display:block"></td>
                         <td>
                           <tr class="email-header">
                             <td style="padding-top:27px;">
@@ -41,29 +38,38 @@
                             </td>
                           </tr>
                         </td>
-                        <td width="30"><img src="assets/images/blank.gif" width="1" height="1" style="display:block"></td>
                       </tr>
                     </tbody>
                   </table>
                 </td>
-                <td width="30"><img src="assets/images/blank.gif" width="1" height="1" style="display:block"></td>
               </tr>
             </tbody>
           </table>
 
-          <table class="email-footer" cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;" class="email-container" width="600">
+          <table class="email-footer" cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;" class="email-container" width="100%">
             <tbody>
               <tr>
-                <td colspan="3">
+                <td >
                   <p style="font-size: 13px;color: #767676;text-align:center;margin-top:34px;margin-bottom:22px;">&copy;2015 Mezuka. All Rights Reserved. 65 Broadway, Suite 1101, New York, NY 10006</p>
                 </td>
               </tr>
             </tbody>
           </table>
         </td>
-        <td><img src="assets/images/blank.gif" width="1" height="1" style="display:block"></td>
       </tr>
     </tbody>
   </table>
+  <style>
+    @media screen and (max-width:600px) {
+        #wrapper {
+            width:100% !important;
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:1080px), only screen and ( min-resolution: 192dpi) and (max-width:1080px), only screen and ( min-resolution: 2dppx) and (max-width:1080px) {
+        #wrapper {
+            width:100% !important;
+        }
+    }
+  </style>
 </body>
 </html>

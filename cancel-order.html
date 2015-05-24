@@ -71,7 +71,7 @@
             </tbody>
           </table>
 
-          <table class="email-footer" cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;" class="email-container" width="100%">
+          <table class="email-footer" cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;" class="email-container" width="600">
             <tbody>
               <tr>
                 <td>
@@ -85,8 +85,13 @@
     </tbody>
   </table>
   <style>
-    @media (max-width:600px) {
-        #wrapper {
+    @media screen and (max-width:600px) {
+        #wrapper,.email-footer {
+            width:100% !important;
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:1080px), only screen and ( min-resolution: 192dpi) and (max-width:1080px), only screen and ( min-resolution: 2dppx) and (max-width:1080px) {
+        #wrapper,.email-footer {
             width:100% !important;
         }
     }
